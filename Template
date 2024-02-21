@@ -1,6 +1,6 @@
 var weburl=window.location.href;
 var templateSNumber;
-if(weburl.indexOf("https://mrlaboratory") != -1){
+if(weburl.indexOf("https://2kadam.in") != -1){
     templateSNumber = weburl.match(/[0-9]+/);
     tempdownf("https://template.2kadam.in/search?q=template"+templateSNumber);
 }else if(typeof(template) !== 'undefined'){
